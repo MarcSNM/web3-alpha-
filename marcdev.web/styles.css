@@ -182,6 +182,15 @@ padding: 2em;
   border-radius: 5px;
 }
 
+.card_3{
+  width: 300px;
+  height: 450px;
+  background-color: hsl(184, 64%, 17%);
+  margin: 1em;
+  border: 3px solid #07e7a4;
+  border-radius: 5px;
+}
+
 .card_title h2 {
   padding: 25px;
   font-size: 1.5em;
@@ -205,6 +214,13 @@ padding: 2em;
   width: 100%;
   height: 150px;
   background-image: url(../portfolio-tutorial-master/img/descarga.jpg);
+  background-size: cover;
+}
+
+.card_img_3 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../portfolio-tutorial-master/img/descarga2.jpg);
   background-size: cover;
 }
 
