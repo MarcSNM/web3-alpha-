@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #191c31;
+  color: aliceblue;
+}
+
+
+.navbar{
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.brand{
+  margin-top: -8px;
+}
+.brand span{
+  color: aqua;
+}
+
+.menu{
+  display: flex;
+  width: 50vw;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+
+}
+.menu a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu .active{
+  color: aqua;
+}
+
+.menu a:hover{
+  background-color: aqua;
+  color: #191c31;
+  transition: ease-in .4s;
+  
+}
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  align-items: center;
+  
+}
+
+h1 {
+  font-size: 3em;
+}
+
+span {
+  color:aqua;
+  
+}
+
+.download-cv{
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.download-cv:hover{
+  background-color: #fff;
+  box-sizing: none;
+}
+
+.main img{
+  width: 850px;
+  height: 520px;
+  border: 3px solid aqua;
+  
+}
+
+.about {
+background-color:whitesmoke;
+display: grid;grid-template-columns: repeat(10, 1fr);
+width: 100vw;
+align-items: center;
+padding: 2em;
+}
+
+.about img{
+  width: 70%;
+  height: 90%;
+  grid-column: 1/5;
+
+}
+
+.about-info{
+  padding: 3em;
+  grid-column:5/10;
+  color: #191c31;
+  font-size: 1.5em;
+}
+
+.about-info h2{
+  font-size: 3em;
+  color: #191c31;
+}
+
+.divider {
+  height: 6px;
+  width: 80px;
+  background-color:  aqua;
+  margin-top: 10px;
+  margin-bottom: 1em;
+}
+
+.about p{
+  margin-bottom: 1em;
+
+}
+
+.portfolio {
+  width: 100vw;
+  background-color: #191c32;
+}
+
+.portfolio-headings{
+  width: 100vw;
+  padding: 5em;
+  
+}
+
+.portfolio-headings h2{
+  font-size: 2.5em;
+}
+
+.portfolio .container{
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  
+  
+}
+
+.card{
+  width: 300px;
+  margin-top: 20em;
+  background-color: #123153;
+  
+}
+
+.card_title h2 {
+  padding: 20px;
+  font-size: 1.6em;
+  }
+
+.card_title p {
+  font-size: 1em;
+  margin-bottom:1em;
+  text-align: center;
+}
+
+.card_img {
+  width: 100%;
+  height: 150px;
+  background-image: url(../portfolio-tutorial-master/img/2-original.png);
+  background-size: cover;
+}
+
+.card__projects_links {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.card__projects_links a {
+  color: #fff;
+  text-decoration: none  ;
+
+}
+
+.card__projects_links i {
+  font-size:  1.5em;
+}
+
+
+
+.card .Porject-details a {
+  text-decoration: none;
+  color: #191c32;
+  text-transform: uppercase;
+  
+
+}
+
+.proyect-details-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1em;
+}
+
