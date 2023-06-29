@@ -162,20 +162,28 @@ padding: 2em;
   justify-content: center;
   font-size: 1em;
   
-  
 }
 
-.card{
+.card_1{
   width: 300px;
   height: 450px;
   background-color: #123153;
   margin: 1em;
-  
+  border: 3px solid aqua;
+   
+}
+
+.card_2{
+  width: 300px;
+  height: 450px;
+  background-color: hsl(55, 8%, 28%);
+  margin: 1em;
+  border: 3px solid hwb(180 68% 29%);
 }
 
 .card_title h2 {
-  padding: 20px;
-  font-size: 1.6em;
+  padding: 25px;
+  font-size: 1.5em;
   }
 
 .card_title p {
@@ -184,10 +192,18 @@ padding: 2em;
   text-align: center;
 }
 
-.card_img {
+.card_img_1 {
   width: 100%;
   height: 150px;
-  background-image: url(../portfolio-tutorial-master/img/2-original.png);
+  background-image: url(../portfolio-tutorial-master/img/descarga1.jpg);
+  background-size: cover;
+  
+}
+
+.card_img_2 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../portfolio-tutorial-master/img/descarga.jpg);
   background-size: cover;
 }
 
