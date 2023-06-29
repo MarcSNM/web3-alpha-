@@ -167,8 +167,9 @@ padding: 2em;
 
 .card{
   width: 300px;
-  margin-top: 20em;
+  height: 450px;
   background-color: #123153;
+  margin: 1em;
   
 }
 
