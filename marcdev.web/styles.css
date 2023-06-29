@@ -156,6 +156,14 @@ padding: 2em;
   margin-bottom: 1em;
 }
 
+.divider_1 {
+  height: 3px;
+  width: 100%;
+  align-items: center;
+  background-color:  aqua;
+  
+}
+
 
 
 .about p{
