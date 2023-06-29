@@ -170,7 +170,7 @@ padding: 2em;
   background-color: #123153;
   margin: 1em;
   border: 3px solid aqua;
-   
+  border-radius: 5px; 
 }
 
 .card_2{
@@ -179,6 +179,7 @@ padding: 2em;
   background-color: hsl(55, 8%, 28%);
   margin: 1em;
   border: 3px solid hwb(180 68% 29%);
+  border-radius: 5px;
 }
 
 .card_title h2 {
