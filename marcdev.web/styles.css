@@ -171,6 +171,7 @@ padding: 2em;
   margin: 1em;
   border: 3px solid aqua;
   border-radius: 5px; 
+  
 }
 
 .card_2{
@@ -242,12 +243,20 @@ padding: 2em;
 
 
 
-.card .Porject-details a {
+.card_1 .Porject-details a {
   text-decoration: none;
   color: #191c32;
-  text-transform: uppercase;
   
-
+}
+.card_2 .Porject-details a {
+  text-decoration: none;
+  color: #191c32;
+  
+}
+.card_3 .Porject-details a {
+  text-decoration: none;
+  color: #191c32;
+  
 }
 
 .proyect-details-content {
